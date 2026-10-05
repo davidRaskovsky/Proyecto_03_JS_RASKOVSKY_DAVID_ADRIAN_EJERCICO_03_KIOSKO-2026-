@@ -7,16 +7,21 @@
 </head>
 <body>
     <h1>Proyecto03 - Calculadora de Precios con IVA</h1>
-<div id="formulario">
-    <label for="datos">ingrese el nombre del producto</label>
-    <input type="text" 
-            id="idProd"
-            name="producto"
-            placeholder="ingrese el nombre del producto" required />
-<button id="btnCalcular">Calcular Precios con IVA (21%)</button>
+<div>
+
+<form id="formulario">
+        <label for="idProd">Ingrese el nombre del producto:</label>
+        <input type="text" 
+        id="idProd" 
+        name="producto" required>
+        <br>
+        <button type="submit" id="btnCalcular">Calcular Precios con IVA (21%)</button>
+</form>
 </div>
-
-
+<br>
+<div id="resultado"></div> 
+    <h2>Productos Disponibles:</h2>
+    <ul id="listaProductos"></ul>
 
 <script type="module" src="/src/js/ejercicio03.js"></script>
 </body>
