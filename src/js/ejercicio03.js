@@ -13,6 +13,7 @@ const productos = [
     { nombre: "Pan", precio: 500 },
     { nombre: "Leche", precio: 1200 }
 ];
+mostrarListaProductos(); // mostrar la lista
 function guardarDatos(producto, precioSinIVA, precioConIVA) {
     return [producto, precioSinIVA, precioConIVA]; // Retorna un arreglo con los datos
 }
@@ -42,4 +43,3 @@ formulario.addEventListener('submit', (evento) => {
     }
 
 });
-ostrarListaProductos(); // muestrastrar la lista de productos al cargar la paginam
