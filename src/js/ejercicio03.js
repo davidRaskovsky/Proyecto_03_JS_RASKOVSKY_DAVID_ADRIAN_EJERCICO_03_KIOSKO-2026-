@@ -11,7 +11,7 @@ const listaProductos = document.querySelector('#listaProductos');
 const productos = [
     { nombre: "Coca", precio: 1000 },
     { nombre: "Pan", precio: 500 },
-    { nombre: "Leche", precio: 100 }
+    { nombre: "Leche", precio: 1200 }
 ];
 function guardarDatos(producto, precioSinIVA, precioConIVA) {
     return [producto, precioSinIVA, precioConIVA]; // Retorna un arreglo con los datos
